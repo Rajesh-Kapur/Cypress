@@ -13,12 +13,9 @@ describe('Getting to 4ps Website', function(){
 
          })
 
-       // cy.get('#username').type('volker/kapurr');
-        //cy.get('#password').type('volker775544');
-      //  cy.visit("https://vwukts1webilb02.volkerwessels.co.uk/BCS160TEST/Default");
-        //cy.visit('https://vwukdv1neweb01.volkerwessels.co.uk/BCS160Dev/Default/', {failOnStatusCode: false});      
-        
+       
         });
+
 
 
 
