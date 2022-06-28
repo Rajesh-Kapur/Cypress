@@ -18,3 +18,11 @@ import './commands'
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
+
+//this handles the exception --i need to get the window commands 
+Cypress.on('uncaught:exception', (err, runnable) => {
+    cy.log(`Uncaught Exception: ${JSON.stringify(err)}`);
+  
+   return false;
+  });
+  
